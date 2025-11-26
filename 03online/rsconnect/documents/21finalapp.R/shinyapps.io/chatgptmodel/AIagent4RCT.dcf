@@ -1,0 +1,12 @@
+name: AIagent4RCT
+title: AIagent4RCT
+username: chatgptmodel
+account: chatgptmodel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16144257
+bundleId: 11216723
+url: https://chatgptmodel.shinyapps.io/AIagent4RCT/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

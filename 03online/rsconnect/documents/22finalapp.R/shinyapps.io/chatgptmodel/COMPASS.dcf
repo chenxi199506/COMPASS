@@ -1,0 +1,12 @@
+name: COMPASS
+title: COMPASS
+username: chatgptmodel
+account: chatgptmodel
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 16144536
+bundleId: 11235578
+url: https://chatgptmodel.shinyapps.io/COMPASS/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
