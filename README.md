@@ -1,103 +1,84 @@
-Building Reliable Evidence with AI: An Orchestrated Multi-Agent Framework and Methodological Audit of 1.2 Million Randomized Controlled Trials
+# 🧠 Building Reliable Evidence with AI: An Orchestrated Multi-Agent Framework and Methodological Audit of 1.2 Million Randomized Controlled Trials
 
-🔍 Overview
-This project introduces a scalable AI framework for reliable evidence synthesis by orchestrating multiple large language models to audit 1.2 million RCTs—the largest methodological evaluation of its kind. We address the critical challenge of LLM hallucination in scientific literature processing and propose a systematic solution that combines multi-agent consensus, structured quality control, and an interactive analysis platform.
+### *An Orchestrated Multi-Agent Framework and Methodological Audit of 1.2 Million Randomized Controlled Trials for Building Reliable Evidence in Biomedical Research*
 
-The system comprises three core innovations:
 
-ACCORD – A multi-agent orchestration framework that mitigates LLM hallucinations through task planning, weighted voting, and expert evaluation, achieving higher accuracy than any single model.
+### 🔍 Overview
+This project addresses the critical challenges of **accelerating RCT volume** and the **hallucination problem in Large Language Models (LLMs)** by introducing a novel, multi-agent AI framework for high-fidelity evidence synthesis.
 
-RCT Knowledge Base – A structured repository of 490,430 high-quality RCTs extracted from 1.2 million publications, enabling large-scale methodological audits.
+It introduces three major components:
 
-COMPASS – The first online platform integrating multi-agent extraction with automated meta-analysis workflows, supporting real-time evidence synthesis and methodological exploration.
+- **ACCORD (Agent for Calibrated Consensus On Reported Data from literature)** – An orchestrated multi-agent framework that automates literature extraction through **task planning, weighted ensemble voting, and result evaluation**, achieving system-level performance exceeding individual models.
+- **Structured RCT Database** – A comprehensive repository of **490,430 high-quality Randomized Controlled Trials (RCTs)** derived from processing **1,209,547 publications**, supporting large-scale methodological audit.
+- **COMPASS** – The **Comprehensive Online Meta-Analysis Platform for Smart Synthesis**, integrating multi-agent literature extraction with large-scale methodological analysis.
 
-🚀 Explore the COMPASS Platform
-🌐 👉 Visit the LIVE COMPASS Platform
-Access COMPASS, our interactive platform for agent-driven evidence synthesis and methodological auditing of RCTs. The platform enables:
+---
 
-Automated literature screening and data extraction via the ACCORD multi-agent engine
+## 🚀 Explore the COMPASS Platform
 
-Interactive meta-analysis with real-time forest plots and bias diagnostics
+### 🌐 [👉 Visit the LIVE COMPASS Platform](https://chatgptmodel.shinyapps.io/COMPASS/)
 
-Large-scale methodological dashboards visualizing statistical power, p-hacking patterns, and temporal trends across 490,000+ RCTs
+You can directly access **COMPASS**, our interactive platform for automated evidence synthesis and methodological analysis, via the link above.  
+The platform supports **fully automated, agent-driven, and semi-automated meta-analysis workflows**.
 
-https://github.com/chenxi199506/ASAP/blob/master/COMPASS_preview.png
+![COMPASS Platform Preview](https://github.com/chenxi199506/ASAP/blob/master/ASAP.png)
 
-(If the preview does not load on GitHub, please click the link above to open the live version.)
+*(If the preview does not load, please click the link above to open the live version.)*
 
-🧩 System Architecture
-ACCORD Multi-Agent Framework
-The framework operates through four coordinated stages:
+---
 
-Task Planning – Decomposes extraction tasks into structured subtasks
+## 🧩 System Workflow
 
-Targeted Distribution – Assigns subtasks to LLMs based on benchmarked strengths
+The core of our system is the **ACCORD Multi-Agent Framework**, designed to overcome individual LLM limitations. The workflow mimics rigorous academic review through a four-stage process:
 
-Weighted Ensemble Voting – Aggregates outputs using confidence-weighted consensus
+1.  **Task Planning:** Deconstructing complex extraction tasks.
+2.  **Targeted Task Distribution:** Assigning tasks to specialized agents.
+3.  **Weighted Voting:** Aggregating and cross-verifying agent outputs.
+4.  **Expert Evaluation:** Final quality control and data calibration.
 
-Expert Evaluation – Implements closed-loop validation and calibration
+![ACCORD Workflow](path/to/your/workflow_image.png)
 
-COMPASS Platform Integration
-Frontend: Interactive Shiny application for visualization and user-directed analysis
+---
 
-Backend: ACCORD agent orchestration engine and structured RCT database
+## 📊 Key Findings
+- **Statistical Power:** Only **60.4%** of analyzed RCTs were found to be **adequately powered**, though this proportion is trending upwards.
+- **P-Hacking:** The prevalence of P-hacking exhibits a **U-shaped distribution**, being most prevalent in **mid-tier journals** and among papers that are either highly cited or uncited.
+- **Model Performance:** The ACCORD framework significantly reduced hallucinations and achieved higher extraction accuracy than any single LLM.
 
-Workflow Support: Fully automated, semi-automated, and manual meta-analysis pipelines
+---
 
-📊 Key Findings from 1.2 Million RCTs
-Statistical Power: Only 60.4% of RCTs were adequately powered (≥80% power), though this proportion has improved over time.
+## 💡 Conclusion
+We developed **COMPASS**, the first online platform to integrate multi-agent literature extraction with large-scale methodological analysis.
+Our work demonstrates that **intelligent system integration (ACCORD)** and continuous methodological monitoring are essential for deploying reliable AI in biomedical research, moving beyond the pursuit of raw model power to robust, orchestrated systems.
 
-P-Hacking Patterns: Prevalence follows a U-shaped distribution—highest in mid-tier journals and among both highly cited and uncited papers.
+---
 
-Model Performance: Benchmarking of 26 LLMs showed significant task-dependent variation, with no single model dominating across all extraction tasks.
+## 🇨🇳 中文简介
 
-System Accuracy: The ACCORD framework achieved higher consensus accuracy than any individual LLM, effectively mitigating hallucination through orchestrated verification.
+### 🔍 概述
+本项目旨在解决 **随机对照试验（RCT）数量激增** 和 **大语言模型（LLMs）幻觉问题** 对循证医学的挑战，推出了一个用于高保真证据综合的创新性多智能体 AI 框架。
 
-💡 Implications & Future Directions
-Reliable AI for Evidence Synthesis: Demonstrates that intelligent system design—beyond raw model capability—is critical for deploying trustworthy AI in biomedical research.
+项目包含三个核心部分：
 
-Continuous Methodological Monitoring: The structured RCT database enables ongoing audit of research quality, transparency, and statistical rigor across disciplines.
+- **ACCORD 智能体框架** —— 包含任务规划、加权投票和专家评估的 **多智能体协作系统**，有效解决了模型幻觉问题，实现了高精度的文献自动化提取。
+- **结构化 RCT 数据库** —— 基于 **120 万篇文献** 筛选构建的包含 **490,430 篇高质量 RCT** 的结构化数据库。
+- **COMPASS 平台** —— 首个结合多智能体提取与大规模方法学分析的在线平台，支持 **全自动化与半自动化 Meta 分析**。
 
-Scalable Synthesis Infrastructure: COMPASS provides a foundational platform for next-generation, high-throughput evidence synthesis that keeps pace with literature growth.
+---
 
-Open Science & Community Use: The platform and framework are designed for broad adoption, supporting reproducible meta-analysis and methodological research.
+## 🌐 在线体验 COMPASS 平台
 
-📁 Repository & Data Availability
-COMPASS Platform: https://chatgptmodel.shinyapps.io/COMPASS/
+### 🚀 [点击访问实时平台 👉 https://chatgptmodel.shinyapps.io/COMPASS/](https://chatgptmodel.shinyapps.io/COMPASS/)
 
-ACCORD Framework Code: Available on GitHub (link to be added upon publication)
+COMPASS 平台支持 **交互式自动化证据综合、高级方法学分析与可视化展示**，为临床研究提供实时、可靠的证据支持。
 
-Structured RCT Database: Subset available for methodological research upon request
+---
 
-Benchmark Dataset: 1,049 expert-annotated publications for LLM evaluation
+## 📧 Contact Information
 
-🇨🇳 中文简介
-🔍 概述
-本研究构建了一个可扩展的AI证据合成框架，通过协调多个大语言模型对120万项随机对照试验（RCT）进行了方法学审计——这是迄今为止规模最大的同类评估。我们解决了LLM在科学文献处理中的幻觉问题，并提出了一套结合多智能体共识、结构化质量控制与交互式分析平台的系统解决方案。
+**Corresponding Authors:**
+* **Xi Chen** (chenxi199506@stu.pku.edu.cn)
+* **Yixin Zhou** (orthoyixin@yahoo.com)
+* **Ming Chu** (famous@bjmu.edu.cn)
 
-系统包含三大核心创新：
-
-ACCORD – 一个多智能体协调框架，通过任务规划、加权投票与专家评估来缓解LLM幻觉，准确率超越任何单一模型。
-
-RCT知识库 – 从120万篇文献中提取的490,430项高质量RCT结构化数据库，支持大规模方法学审计。
-
-COMPASS – 首个将多智能体提取与自动化Meta分析工作流集成的在线平台，支持实时证据合成与方法学探索。
-
-🚀 访问COMPASS平台
-🌐 点击访问实时平台 👉 https://chatgptmodel.shinyapps.io/COMPASS/
-平台支持：
-
-通过ACCORD多智能体引擎实现自动化文献筛选与数据提取
-
-交互式Meta分析，实时生成森林图与偏倚诊断
-
-大规模方法学仪表板，可视化49万+RCT的统计功效、p-hacking模式及时序趋势
-
-📊 主要发现
-统计功效：仅60.4%的RCT具备足够功效（≥80%），但这一比例随时间逐步改善。
-
-P-Hacking模式：呈现U型分布——在中层期刊以及高被引和零被引论文中最为普遍。
-
-模型性能：26个LLM的基准测试显示显著的任务依赖性差异，无单一模型在所有提取任务中占优。
-
-系统精度：ACCORD框架通过协调验证，实现了高于任何单一LLM的共识准确率。
+**Lead Contact:** Xi Chen (chenxi199506@stu.pku.edu.cn)
