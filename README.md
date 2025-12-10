@@ -21,7 +21,7 @@ It introduces three major components:
 You can directly access **COMPASS**, our interactive platform for automated evidence synthesis and methodological analysis, via the link above.  
 The platform supports **fully automated, agent-driven, and semi-automated meta-analysis workflows**.
 
-![COMPASS Platform Preview](https://github.com/chenxi199506/ASAP/blob/master/ASAP.png)
+![COMPASS Platform Preview](https://github.com/chenxi199506/COMPASS/blob/main/figure/webfig.png)
 
 *(If the preview does not load, please click the link above to open the live version.)*
 
@@ -36,7 +36,7 @@ The core of our system is the **ACCORD Multi-Agent Framework**, designed to over
 3.  **Weighted Voting:** Aggregating and cross-verifying agent outputs.
 4.  **Expert Evaluation:** Final quality control and data calibration.
 
-![ACCORD Workflow](path/to/your/workflow_image.png)
+![ACCORD Workflow](phttps://github.com/chenxi199506/COMPASS/blob/main/figure/workflow.png)
 
 ---
 
