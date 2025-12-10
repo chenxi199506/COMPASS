@@ -36,7 +36,7 @@ The core of our system is the **ACCORD Multi-Agent Framework**, designed to over
 3.  **Weighted Voting:** Aggregating and cross-verifying agent outputs.
 4.  **Expert Evaluation:** Final quality control and data calibration.
 
-![ACCORD Workflow](phttps://github.com/chenxi199506/COMPASS/blob/main/figure/workflow.png)
+![ACCORD Workflow](https://github.com/chenxi199506/COMPASS/blob/main/figure/workflow.png)
 
 ---
 
